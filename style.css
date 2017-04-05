@@ -1,0 +1,395 @@
+@import 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+    
+html {
+    font: 18px;     
+}
+
+body {
+    font-family: 'PT Serif', serif;
+    margin: 0;
+    background-color: black;   
+}
+
+section header {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(images/header.jpg);
+}
+
+section header > img {
+    padding-top: 2rem;
+}
+
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: -3px;
+    margin: 0;
+    text-shadow: 0 0 8px rgba(0,0,0,0.2);
+    transition: 5s;
+    }
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color:white;
+    
+}
+
+h4 {
+    color: black;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -3px;
+    margin: 0;
+    text-shadow: 0 0 8px rgba(0,0,0,0.2);
+    transition: 5s;
+}
+
+.transition {  
+	color: white;
+    transition: 5s ease;
+    
+}
+.intro p {
+    color: white;
+}
+
+.intro {
+    max-width: 1200px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;  
+    color: white;
+    }
+
+#timetable {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#home {
+    background: black;
+}
+
+p {
+    color: white;
+}
+
+.p1 {
+    background-color: black;
+    padding: 5px;
+}
+
+.p2 {
+    background-color: black; 
+    padding: 5px;
+}
+
+.p3 {
+     background-color: black;
+     padding: 5px;
+}
+
+#speakers {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/speakers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+#george {
+    background-color: black;
+    padding: 5px;
+}
+
+#stefano {
+    background-color: black;
+    padding: 5px;
+}
+
+#veronika {
+    background-color: black;
+    padding: 5px;
+}
+
+#tim {
+    background-color: black;
+    padding: 5px;
+}
+
+#marissa {
+    background-color: black;
+    padding: 5px;
+}
+
+#sheryl {
+    background-color: black;
+    padding: 5px;
+}
+
+#jonathan {
+    background-color: black;
+    padding: 5px;
+}
+
+#elon {
+    background-color: black;
+    padding: 5px;
+}
+
+nav {
+    background: rgba(0,0,0,0.120);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    transition: top 0.3s;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 900px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 700;
+    display: block;
+    padding: 1rem;
+    transition: all 0.2s;
+}
+
+nav a:hover {
+    color: #78EEEE;
+    transition: 1s ease;
+}
+
+
+#gmap {
+    padding-top: 2rem;
+    height: 80vh;
+}
+
+.table {
+    color: white;
+    
+}
+
+speakers {
+    background-color: black;
+}
+
+.sociallinks {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0 2rem 0;
+    }
+
+.follow {
+    padding-top: 5rem;
+}
+
+.socialicons {
+    display: block;   
+    width: 6rem;
+    height: 6rem;
+    fill: #78EEEE;
+    color: #78EEEE;
+    transition: all 0.5s;
+    margin: 0 0 2rem 0;
+    }
+
+.socialicons:hover {
+    fill: #63E681;
+    transform: scale(1.2);
+    transition: 1.5s;
+}
+
+.dl-horizontal {
+    font-size: 20;
+    text-align: center;
+}
+
+ dt, dd {
+    margin: 0 2rem 0 2rem;
+    border-collapse: collapse;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: center;
+    width: calc(45% - 30px);
+    line-height: 1.5cm;
+  }
+
+  dt {
+    text-align: center;
+    padding-right: 10px;
+  }
+
+  dd {
+    text-align: center;
+    padding-left: 10px;
+
+  } 
+
+dt:nth-child(4n+1) {
+    background-color: #404040;
+}
+
+dd:nth-child(4n+2) {
+    background-color: #404040;
+}
+
+#speakers article {
+    max-width: 1200px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.style4speakers {
+    display: block;
+    height: auto;
+    border-radius: 50%;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    transform: scale(0);
+}
+
+.enlarge {
+    transition: all 1s;
+    transform: scale(1);
+}
+
+
+@media all and (min-width: 640px) {
+    #speakers article {
+        flex-direction: row;
+    }
+    .mytest{
+        display: block;
+    }
+    #speakers article > div:first-child {
+        flex-basis: 20%;
+        padding: 20px;
+        align-self: center;
+    }
+    #speakers article > div:last-child {
+        flex-basis: 70%;
+    }
+    #speakers article:nth-child(even) {
+    flex-direction: row-reverse;
+     
+}
+    
+@media all and (min-width: 320px) {
+    .sociallinks {
+        flex-direction: row;
+    }
+ }
+    
+@media all and (max-width: 640px){
+     dl  {
+    font-size: 2;
+    margin: 0px; padding: 0px;
+    overflow: auto;
+}
+    
+@media all and (max-width: 640px){
+#map p {
+     
+    padding-left: 1cm;        
+    padding-top: 1cm; 
+    text-align: left;
+    font-size: 10rem;
+    text-align: center;
+    }
+}
+
+ @media only screen and (max-width: 640px) {
+     .video {
+         padding-right: 10rem;
+         outline: yellow;
+         
+     }
+    }
+
+
+    
+
+dt  {
+   display: inline-block;
+   width: 30%;
+   
+   
+}
+
+dd {
+   width: 60%;
+   display: inline-block;
+  
+}
+    } 
+    
+.subspeakers {
+    background-image: url(images/speakers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    
+
+u {
+    font-size: 30px;    
+    }
+ 
+footer p {
+     text-align: center;  
+    }
+    
+#map p {
+     padding-top: 1cm; 
+     text-align: center;
+     font-size: 1.7rem;
+    }
+
+.video {
+    padding-left: 15rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    }
